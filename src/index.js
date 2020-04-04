@@ -18,6 +18,17 @@ function HelloWorld() {
 	);
 }
 
+function SubmitButton(){
+	var buttonlabel='submit';
+	return(<button>{buttonlabel}</button>);
+}
+
+function ValidIndicator(){
+var isvalid=true;
+return(<span>{isValid?'valid':'not valid'}</span>);
+
+}
+
 ReactDOM.render(
 		
 	<HelloWorld/>,
